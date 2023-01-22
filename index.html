@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazynums</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/javascript/script.js"></script>
+</head>
+<body>
+    <div class="caixacentral">
+        <h1 class="titol">Calculadora Crazynums</h1>
+        <div class="explicacio">
+            <p>
+            Aquesta calculadora us demanarà 2 números entre 1 i 50, els sumarà, us dirà si son primers,
+            si són parells o imparells i us llistarà altres números segons bufa el vent...
+            </p>
+            <picture>
+                <source srcset="assets/imatges/fons600.jpg" media="(max-width: 600px)" />
+                <source srcset="assets/imatges/fons768.jpg" media="(max-width: 768px)" />
+                <source srcset="assets/imatges/fons992.jpg" media="(max-width: 992px)" />
+                <img src="assets/imatges/fons1200.jpg" alt="codificacio matrix">
+            </picture>
+        </div>
+
+        <form class="buto" action="">
+            <input id="inicicalcul" type="button" value="Calcular" onclick="demanaNumeros()">
+        </form>
+
+    </div>
+</body>
+</html>
